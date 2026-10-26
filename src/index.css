@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #eef7ee;
+  --color-brand-100: #d9eed9;
+  --color-brand-500: #2e9b2e;
+  --color-brand-600: #1f7a2a;
+  --color-brand-700: #17621f;
+  --color-brand-900: #0f4a17;
+  --color-ink-950: #0b1210;
+  --color-ink-900: #111a17;
+  --color-ink-800: #17231f;
+  --color-ink-700: #1f2f2a;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f3f4f6;
+}
+
+.leaflet-container {
+  background: #0b1210;
+  font-family: inherit;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #17231f;
+  color: #e5e7eb;
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 10px;
+}
+.leaflet-container a.leaflet-popup-close-button {
+  color: #9ca3af;
+}
+.leaflet-control-attribution {
+  background: rgba(11, 18, 16, 0.7) !important;
+  color: #9ca3af !important;
+}
+.leaflet-control-attribution a {
+  color: #9ca3af !important;
+}
